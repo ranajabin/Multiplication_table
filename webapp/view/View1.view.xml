@@ -1,0 +1,24 @@
+<mvc:View controllerName="multiplicationtable1.multiplicationtableproject.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="Simple Project :-">
+        <content>
+            <VBox alignContent="Center" alignItems="Center" class=".sapUiBody">
+                <f:SimpleForm editable="true" alignItems="Center" alignContent="Center" width="350px" title = "Multiplication Table" class=".sapMFlexBoxBGTransparent">
+                    <f:content>
+                        <VBox alignContent="Center" alignItems="Center">
+                            <HBox>
+                                <Label text="Enter any number : " />
+                                <Input value="" id="inpt1" />
+                            </HBox>
+
+                            <!-- <HBox>
+                                <Label text="Enter Limit" />
+                                <Input value="" id="inpt2" />
+                            </HBox> -->
+                            <Button text="Multiplication" press="onPressMultiply" width="100px" height="100px" type="Emphasized" />
+                        </VBox>
+                    </f:content>
+                </f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

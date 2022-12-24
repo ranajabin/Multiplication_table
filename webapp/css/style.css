@@ -1,0 +1,9 @@
+/* Enter your custom styles here */
+
+.sapUiForm .sapUiFormTitle {
+    border-width: 3px;
+    border-color: #f53232;
+    font-weight: bolder;
+    color: #4fcd1a;
+}
+
